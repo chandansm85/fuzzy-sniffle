@@ -20,8 +20,7 @@ class ShopPage(BrowserUtils):
         self.remove_same_multiple_products = (By.XPATH, "td/a")
         self.placeOrder = (By.XPATH, "//*[text()='Place Order']")
         #hi
-
-
+#y=this is new
 
 
     def product_add_to_cart(self,product_name):
