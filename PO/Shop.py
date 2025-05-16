@@ -19,6 +19,7 @@ class ShopPage(BrowserUtils):
         self.items_check_inCart = (By.XPATH, "//tbody/tr")
         self.remove_same_multiple_products = (By.XPATH, "td/a")
         self.placeOrder = (By.XPATH, "//*[text()='Place Order']")
+        #hi
 
 
 
